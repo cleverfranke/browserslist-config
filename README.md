@@ -4,7 +4,7 @@ This package contains a shareable [browserlist](https://github.com/browserslist/
 
 ## Usage
 
-
+We host this package on a private GitHub package registry. For installing this package, following the instructions at: https://docs.github.com/en/packages/guides/configuring-npm-for-use-with-github-packages#installing-a-package.
 
 ## Supported browsers
 
