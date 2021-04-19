@@ -1,6 +1,6 @@
 {
   "name": "@cleverfranke/browserslist-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "browserlist config for our usual contracted set of supported browsers",
   "main": "index.js",
   "repository": "https://github.com/cleverfranke/browserslist-config",
