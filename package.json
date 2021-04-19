@@ -1,0 +1,9 @@
+{
+  "name": "@cleverfranke/browserslist-config",
+  "version": "1.0.0",
+  "description": "browserlist config for our usual contracted set of supported browsers",
+  "main": "index.js",
+  "repository": "https://github.com/cleverfranke/browserslist-config",
+  "author": "Nick Rutten <nick@cleverfranke.com>",
+  "license": "MIT"
+}
