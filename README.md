@@ -20,7 +20,7 @@ Add it to your browserslist configuration:
 
 ## Supported browsers
 
-Some other browsers are included in the config. At the time of writing, the list is:
+In addition to the above, some other browsers are included in the config. At the time of writing, the list is:
 
 ```txt
 and_chr 88

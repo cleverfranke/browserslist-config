@@ -31,9 +31,12 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: 14
+      - name: Set output
+        id: tag
+        run: echo ::set-output name=tag::${GITHUB_REF#refs/*/}
       - name: Publish
         run: |
           npm config set //registry.npmjs.org/:_authToken ${NPM_TOKEN}
-          npm publish --ignore-scripts --access public --tag ${{github.ref}}
+          npm publish --ignore-scripts --access public --tag ${{ steps.tag.outputs.tag }}
         env:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
