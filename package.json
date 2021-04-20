@@ -2,8 +2,25 @@
   "name": "@cleverfranke/browserslist-config",
   "version": "1.0.1",
   "description": "browserlist config for our usual contracted set of supported browsers",
+  "homepage": "https://github.com/cleverfranke/browserslist-config",
   "main": "index.js",
-  "repository": "https://github.com/cleverfranke/browserslist-config",
-  "author": "Nick Rutten <nick@cleverfranke.com>",
-  "license": "MIT"
+  "author": "CLEVER°FRANKE <developer@cleverfranke.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cleverfranke/browserslist-config.git"
+  },
+  "keywords": [
+    "browserslist"
+  ],
+  "bugs": {
+    "url": "https://github.com/cleverfranke/browserslist-config/issues"
+  },
+  "scripts": {
+    "test": "tap test.js"
+  },
+  "devDependencies": {
+    "browserslist": "^4.16.4",
+    "tap": "^15.0.3"
+  }
 }
